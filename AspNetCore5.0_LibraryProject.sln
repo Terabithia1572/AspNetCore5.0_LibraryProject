@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore5.0_LibraryProject", "AspNetCore5.0_LibraryProject\AspNetCore5.0_LibraryProject.csproj", "{DE434604-0E3B-4FEB-9DDF-11308132F0B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{394FF7AF-9744-4C72-B2E4-A1A7886E29FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{394FF7AF-9744-4C72-B2E4-A1A7886E29FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mineyedeneme", "Mineyedeneme\Mineyedeneme.csproj", "{03505642-7CA8-483B-81B5-FB1E209C03CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{394FF7AF-9744-4C72-B2E4-A1A7886E29FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{394FF7AF-9744-4C72-B2E4-A1A7886E29FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{394FF7AF-9744-4C72-B2E4-A1A7886E29FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03505642-7CA8-483B-81B5-FB1E209C03CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03505642-7CA8-483B-81B5-FB1E209C03CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03505642-7CA8-483B-81B5-FB1E209C03CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03505642-7CA8-483B-81B5-FB1E209C03CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
