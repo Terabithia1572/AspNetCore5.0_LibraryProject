@@ -9,5 +9,8 @@ namespace EntityLayer.Concrete
         public int GenreId { get; set; }
         public string GenreName { get; set; }
         public bool GenreStatus { get; set; }
+
+        public ICollection<Book> Books { get; set; }
+
     }
 }

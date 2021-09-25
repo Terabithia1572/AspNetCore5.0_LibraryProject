@@ -15,5 +15,8 @@ namespace EntityLayer.Concrete
         public string Image { get; set; }
         public string Telephone { get; set; }
         public string Education { get; set; }
+
+        public ICollection<BookSummary> BookSummaries { get; set; }
+
     }
 }

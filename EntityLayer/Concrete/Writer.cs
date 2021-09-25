@@ -11,5 +11,8 @@ namespace EntityLayer.Concrete
         public string WriterSurname { get; set; }
         public string WriterImage { get; set; }
         public bool WriterStatus { get; set; }
+
+        public ICollection<Book> Books { get; set; }
+
     }
 }
