@@ -4,7 +4,9 @@ using System.Text;
 
 namespace EntityLayer.Concrete
 {
-    class Class1
+   public class AdminRole
     {
+        public int RoleId { get; set; }
+        public string RoleValue { get; set; }
     }
 }
