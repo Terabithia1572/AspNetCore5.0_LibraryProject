@@ -21,7 +21,7 @@ namespace EntityLayer.Concrete
         public virtual Genre Genre { get; set; }
 
         public int WriterId { get; set; }
-        public virtual Writer Writer { get;set }
+        public virtual Writer Writer { get; set; }
 
     }
 }
